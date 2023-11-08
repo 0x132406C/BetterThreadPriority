@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "better_thread_priority",
+  "version": "${version}",
+  "name": "BetterThreadPriority",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/0x132406C/BetterThreadPriority"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/better_thread_priority/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.better_thread_priority.client.BetterThreadPriorityClient"
+    ],
+    "main": [
+      "com.better_thread_priority.BetterThreadPriority"
+    ]
+  },
+  "mixins": [
+    "better_thread_priority.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

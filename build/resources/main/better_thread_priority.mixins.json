@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.better_thread_priority.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BetterThreadPriorityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
